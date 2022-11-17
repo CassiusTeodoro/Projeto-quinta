@@ -33,7 +33,7 @@ header{
 #title{
 
     position: absolute;
-    left: 20px;
+    left: 60px;
     font-size: 2.5rem;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
@@ -53,14 +53,44 @@ header{
   }
  
 #boxdespesas{
-    min-height: 40vmin;
-    min-width: 40vmin;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40vmin;
+    width: 40vmin;
     border-radius: 1vmin;
     background-image: linear-gradient(#FF0000, #ff00000e );
     margin-right: 2vmin;
 }
 
+#downgraph{
+    height: 80px;
+    width: 80px;
+
+    position: relative;
+    top: 25px;
+    left: 65px;
+}
+
+#boxdespesasvalor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 #boxliquido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 40vmin;
     width: 40vmin;
     border-radius: 1vmin;
@@ -70,13 +100,58 @@ header{
 
 }
 
+#carteira{
+    height: 80px;
+    width: 80px;
+
+    position: relative;
+    top: 25px;
+    left: 65px;
+}
+
+#boxliquidovalor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 #boxbruto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 40vmin;
     width: 40vmin;
     border-radius: 1vmin;
     background-image: linear-gradient(#FF00E5, #ff00000e );
 
-} 
+}
+
+#upgraph{
+    height: 80px;
+    width: 80px;
+
+    position: relative;
+    top: 25px;
+    left: 65px;
+
+
+}
+
+#boxbrutovalor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 
 #flexcima{
     display: flex;
@@ -230,3 +305,64 @@ label {
 
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: arial;
+}
+
+ul{
+    list-style: none;
+
+}
+
+img{
+    width: 40px;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+
+}
+
+nav{
+    background-color: #0B3462;
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(350px);
+}
+
+ul{
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}
+
+a{
+
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(176,224,230);
+    color: black;
+}
+
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
