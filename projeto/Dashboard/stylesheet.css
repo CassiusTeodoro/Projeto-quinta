@@ -32,15 +32,15 @@ header{
 
 #title{
     position: absolute;
-    top: 9px;
     left: 80px;
+    top: 7px;
     font-size: 2.5rem;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: normal;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: lighter;
-    position: fixed;
+    text-align: left;
     margin: 0;
 
 
@@ -53,14 +53,44 @@ header{
   }
  
 #boxdespesas{
-    min-height: 40vmin;
-    min-width: 40vmin;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40vmin;
+    width: 40vmin;
     border-radius: 1vmin;
     background-image: linear-gradient(#FF0000, #ff00000e );
     margin-right: 2vmin;
 }
 
+#downgraph{
+    height: 80px;
+    width: 80px;
+
+    position: relative;
+    top: 25px;
+    left: 65px;
+}
+
+#boxdespesasvalor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 #boxliquido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 40vmin;
     width: 40vmin;
     border-radius: 1vmin;
@@ -70,13 +100,58 @@ header{
 
 }
 
+#carteira{
+    height: 80px;
+    width: 80px;
+
+    position: relative;
+    top: 25px;
+    left: 65px;
+}
+
+#boxliquidovalor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 #boxbruto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 40vmin;
     width: 40vmin;
     border-radius: 1vmin;
     background-image: linear-gradient(#FF00E5, #ff00000e );
 
-} 
+}
+
+#upgraph{
+    height: 80px;
+    width: 80px;
+
+    position: relative;
+    top: 25px;
+    left: 65px;
+
+
+}
+
+#boxbrutovalor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 
 #flexcima{
     display: flex;
@@ -230,9 +305,6 @@ label {
 
 }
 
-
-
-
 a{
     text-decoration: none;
     color: black;
@@ -244,6 +316,7 @@ body{
     font-size: normal;
     color: white;
     font-weight: lighter;
+    font-family: arial;
 }
 
 ul{
