@@ -8,7 +8,7 @@ body, html{
 }
 
 header{
-
+    height: 70px;
     background-color: rgba(80, 75, 148, 0.281);
     margin-bottom: 2vmin;
 }
@@ -33,7 +33,7 @@ header{
 #title{
     position: absolute;
     left: 80px;
-    top: 7px;
+    top: 13px;
     font-size: 2.5rem;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
@@ -282,6 +282,8 @@ label {
 }
 
 #flexdentro{
+    position: relative;
+    top: 10px;
     display: grid;
     margin-right: 0vmin;
     padding-right: 30vmin;
@@ -323,7 +325,7 @@ ul{
 }
 
 img{
-    width: 45px;
+    width: 55px;
 }
 
 input[type="checkbox"]
@@ -336,7 +338,7 @@ nav{
     width: 350px;
     height: 100%;
     position: absolute;
-    top: 60px;
+    top: 70px;
     left: -350px;
     transition: all .5s;
 }
@@ -348,7 +350,7 @@ input[type="checkbox"]:checked ~ nav
 
 ul{
     position: absolute;
-    top: -12px;
+    top: -15px;
     width: 87%;
 }
 
@@ -356,7 +358,7 @@ ul{
     display: block;
     padding: 15px;
     padding-left: 15px;
-    padding-right: 138px;
+    padding-right: 128px;
     color: white;
 }
 
@@ -364,7 +366,7 @@ ul{
     display: block;
     padding: 15px;
     padding-left: 15px;
-    padding-right: 162px;
+    padding-right: 152px;
     color: white;
 }
 
@@ -372,7 +374,7 @@ ul{
     display: block;
     padding: 15px;
     padding-left: 15px;
-    padding-right: 109px;
+    padding-right: 99px;
     color: white;
 }
 
@@ -384,26 +386,26 @@ a:hover{
 #sidebar{
     padding: 15px;
     position: absolute;
-    top: -5px;
+    top: -7px;
     z-index: 1;
 }
 
 #imgdashboard{
     position: relative;
     left: -22px;
-    top: 12px;
+    top: 19px;
 }
 
 #imgestoque{
     position: relative;
     left: -22px;
-    top: 12px;
+    top: 19px;
 }
 
 #imgconfig{
     position: relative;
     left: -22px;
-    top: 12px;
+    top: 19px;
 }
 
 img, li{    
