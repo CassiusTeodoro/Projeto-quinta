@@ -7,7 +7,7 @@
     <title>Dashboard</title>
 
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="script" href="script.js">
+    <script src="../Landing/script.js"></script>
 
 
 
@@ -54,18 +54,24 @@
   </header>
 
   <input type="checkbox" id="check">
-  <label for="check">
-    <img src="menuriscos.png">
+  <label for="check" id="sidebar">
+    <img src="menuriscos.png" alt="">
   </label>
 
   <nav>
     <ul>
-      <img src="dashboard.png" id="imgdashboard">
-      <li><a href="">Dashboard</a></li>
-      <img src="estoque.png" id="imgestoque">
-      <li><a href="">Estoque</a></li>
-      <img src="configuração.png" id="imgconfig">
-      <li><a href="">Configuração</a></li>
+      <div>
+        <img src="dashboard.png" alt="" id="imgdashboard">
+        <li><a href="..//Dashboard/dashboard.html" id="linkdashboard">DASHBOARD</a></li>
+      </div>
+      <div>
+        <img src="estoque.png" alt="" id="imgestoque">
+        <li><a href="..//Estoque/index.html" id="linkestoque">ESTOQUE</a></li>
+      </div>
+      <div>
+        <img src="config.png" alt="" id="imgconfig">
+        <li><a href="" id="linkconfig">CONFIGURAÇÃO</a></li>
+      </div>
     </ul>
   </nav>
 

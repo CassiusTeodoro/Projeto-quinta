@@ -8,7 +8,7 @@ body, html{
 }
 
 header{
-
+    height: 70px;
     background-color: rgba(80, 75, 148, 0.281);
     margin-bottom: 2vmin;
 }
@@ -31,10 +31,9 @@ header{
 }
 
 #title{
-
     position: absolute;
     left: 80px;
-    top: 7px;
+    top: 13px;
     font-size: 2.5rem;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
@@ -283,7 +282,8 @@ label {
 }
 
 #flexdentro{
-
+    position: relative;
+    top: 10px;
     display: grid;
     margin-right: 0vmin;
     padding-right: 30vmin;
@@ -306,42 +306,40 @@ label {
 
 }
 
-
-
-
-
-
-
 a{
     text-decoration: none;
     color: black;
 }
 
 body{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+    color: white;
+    font-weight: lighter;
     font-family: arial;
 }
 
 ul{
     list-style: none;
-
 }
 
 img{
-    width: 40px;
+    width: 55px;
 }
 
 input[type="checkbox"]
 {
     display: none;
-
 }
 
 nav{
     background-color: #0B3462;
     width: 350px;
     height: 100%;
-    left: -350px;
     position: absolute;
+    top: 70px;
+    left: -350px;
     transition: all .5s;
 }
 
@@ -352,25 +350,67 @@ input[type="checkbox"]:checked ~ nav
 
 ul{
     position: absolute;
-    top: -10px;
-    width: 100%;
+    top: -15px;
+    width: 87%;
 }
 
-a{
+#linkdashboard{
     display: block;
-    padding: 15px 2px;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 128px;
+    color: white;
+}
+
+#linkestoque{
+    display: block;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 152px;
+    color: white;
+}
+
+#linkconfig{
+    display: block;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 99px;
     color: white;
 }
 
 a:hover{
-    background-color: #0f4380;
+    background-color: #1f61ad;
     color: black;
 }
 
-label{
+#sidebar{
     padding: 15px;
     position: absolute;
-    top: -6px;
+    top: -7px;
     z-index: 1;
 }
 
+<<<<<<< HEAD
+=======
+#imgdashboard{
+    position: relative;
+    left: -22px;
+    top: 19px;
+}
+
+#imgestoque{
+    position: relative;
+    left: -22px;
+    top: 19px;
+}
+
+#imgconfig{
+    position: relative;
+    left: -22px;
+    top: 19px;
+}
+
+img, li{    
+    display: inline-block;
+}
+>>>>>>> e71a49a3531254fdb440ce4ad4600d74c0e1a2a7
