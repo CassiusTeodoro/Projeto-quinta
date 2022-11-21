@@ -390,8 +390,6 @@ a:hover{
     z-index: 1;
 }
 
-<<<<<<< HEAD
-=======
 #imgdashboard{
     position: relative;
     left: -22px;
@@ -410,7 +408,6 @@ a:hover{
     top: 19px;
 }
 
-img, li{    
+img, li{
     display: inline-block;
 }
->>>>>>> e71a49a3531254fdb440ce4ad4600d74c0e1a2a7
