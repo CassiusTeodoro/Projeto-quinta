@@ -287,7 +287,11 @@ label {
     top: 10px;
     display: grid;
     margin-right: 0vmin;
-    padding-right: 30vmin; 
+    padding-right: 30vmin;
+    
+    color: white;
+    height: 60px;
+    width: 60px; 
 
 }
 
@@ -296,7 +300,11 @@ label {
     top: 10px;
     display: grid;
     margin-right: 0vmin;
-    padding-right: 30vmin; 
+    padding-right: 30vmin;
+
+    color: white;
+    height: 60px;
+    width: 60px;
 
 }
 
@@ -307,6 +315,9 @@ label {
     margin-right: 0vmin;
     padding-right: 30vmin;
 
+    color: white;
+    height: 60px;
+    width: 60px;
 }
 
 
@@ -314,14 +325,6 @@ label {
 
     height: 50px;
     width: 50px;
-
-}
-
-#flexdentro{
-
-    color: white;
-    height: 60px;
-    width: 60px;
 
 }
 
