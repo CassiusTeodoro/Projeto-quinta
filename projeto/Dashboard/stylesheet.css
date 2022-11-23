@@ -282,12 +282,33 @@ label {
 
 }
 
-#flexdentro{
+#Periodo{
     position: relative;
     top: 10px;
     display: grid;
     margin-right: 0vmin;
     padding-right: 30vmin; 
+
+}
+
+#Dinheiro{
+    position: relative;
+    top: 10px;
+    display: grid;
+    margin-right: 0vmin;
+    padding-right: 30vmin; 
+
+}
+
+#Loja{
+    position: relative;
+    top: 10px;
+    display: grid;
+    margin-right: 0vmin;
+    padding-right: 30vmin;
+    padding: 5px;
+    background: transparent;
+    -webkit-appearance: none; 
 
 }
 
@@ -391,19 +412,7 @@ a:hover{
     z-index: 1;
 }
 
-#imgdashboard{
-    position: relative;
-    left: -22px;
-    top: 19px;
-}
-
 #imgestoque{
-    position: relative;
-    left: -22px;
-    top: 19px;
-}
-
-#imgconfig{
     position: relative;
     left: -22px;
     top: 19px;
