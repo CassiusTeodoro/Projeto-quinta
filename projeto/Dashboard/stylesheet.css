@@ -375,28 +375,11 @@ ul{
     top: -15px;
     width: 87%;
 }
-
-#linkdashboard{
-    display: block;
-    padding: 15px;
-    padding-left: 15px;
-    padding-right: 128px;
-    color: white;
-}
-
 #linkestoque{
     display: block;
     padding: 15px;
     padding-left: 15px;
     padding-right: 152px;
-    color: white;
-}
-
-#linkconfig{
-    display: block;
-    padding: 15px;
-    padding-left: 15px;
-    padding-right: 99px;
     color: white;
 }
 

@@ -24,3 +24,88 @@ header{
     background-image: linear-gradient(to right, #13437a ,  #0C3B6F);
     margin: 0px;
 }
+
+#tamanhonavimg{
+
+    height: 50px;
+    width: 50px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+    color: white;
+    font-weight: lighter;
+    font-family: arial;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 55px;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+nav{
+    background-color: #0B3462;
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    top: 70px;
+    left: -350px;
+    transition: all .5s;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(350px);
+}
+
+ul{
+    position: absolute;
+    top: -15px;
+    width: 87%;
+}
+
+#linkdashboard{
+    display: block;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 128px;
+    color: white;
+}
+
+a:hover{
+    background-color: #1f61ad;
+    color: black;
+}
+
+#sidebar{
+    padding: 15px;
+    position: absolute;
+    top: -7px;
+    z-index: 1;
+}
+
+#imgdashboard{
+    position: relative;
+    left: -22px;
+    top: 19px;
+}
+
+img, li{
+    display: inline-block;
+}
